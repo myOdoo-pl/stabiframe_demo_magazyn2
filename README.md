@@ -1,0 +1,1 @@
+# stabiframe_demo_magazyn2
