@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="account_move_custom_curr_rate" model="ir.ui.view">
+            <field name="name">account.move.custom.curr.rate</field>
+            <field name="model">account.move</field>
+            <field name="inherit_id" ref="account.view_move_form" />
+            <field name="arch" type="xml">
+                 <field name="payment_reference" position="after">
+                    <field name="date_tax_curr_rate" attrs="{'invisible': [('move_type', 'not in', ('in_invoice', 'in_refund','in_receipt'))]}"/>
+                    <field name="tax_home_currency" attrs="{'invisible': [('move_type', 'not in', ('in_invoice', 'in_refund','in_receipt'))]}"/>
+                    <field name="base_home_currency" attrs="{'invisible': [('move_type', 'not in', ('in_invoice', 'in_refund','in_receipt'))]}"/>
+                    <field name="date_custom_curr_rate"/>
+                    <field name="custom_currency_rate"/>
+                    <field name="custom_currency_rate_view" invisible='1'/>
+                    <field name="tax_home_currency_view" invisible='1'/>
+                    <field name="base_home_currency_view" invisible='1'/>
+                 </field>
+            </field>
+        </record>
+    </data>
+</odoo>

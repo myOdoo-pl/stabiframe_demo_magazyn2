@@ -1,0 +1,112 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* currency_history_update
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-30 16:10+0000\n"
+"PO-Revision-Date: 2015-12-30 16:10+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: currency_history_update
+#: view:currency.history.update:currency_history_update.view_currency_update
+msgid "Cancel"
+msgstr "Cancel"
+
+#. module: currency_history_update
+#: field:currency.history.update,create_uid:0
+msgid "Created by"
+msgstr "Created by"
+
+#. module: currency_history_update
+#: field:currency.history.update,create_date:0
+msgid "Created on"
+msgstr "Created on"
+
+#. module: currency_history_update
+#: model:ir.model,name:currency_history_update.model_res_currency
+msgid "Currency"
+msgstr "Waluta"
+
+#. module: currency_history_update
+#: model:ir.actions.act_window,name:currency_history_update.action_currency_history
+msgid "Currency History Update"
+msgstr "Aktualizacja kursów walut"
+
+#. module: currency_history_update
+#: model:ir.model,name:currency_history_update.model_res_currency_rate
+msgid "Currency Rate"
+msgstr "Kurs waluty"
+
+#. module: currency_history_update
+#: field:currency.history.update,date:0
+msgid "Date"
+msgstr "Data"
+
+#. module: currency_history_update
+#: help:currency.history.update,date:0
+msgid "Date from which the rates will be updated. If there is no rating for choosen date, the rates will be updated from the last available date."
+msgstr "Data od które system pobierze kursy. "
+
+#. module: currency_history_update
+#: view:res.company:currency_history_update.currency_auto_comp_history
+msgid "Fetch Currency History Rates"
+msgstr "Pobierz zeszłe kursy walut"
+
+#. module: currency_history_update
+#: field:currency.history.update,force_update:0
+msgid "Force Update"
+msgstr "Force Update"
+
+#. module: currency_history_update
+#: field:currency.history.update,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: currency_history_update
+#: field:currency.history.update,write_uid:0
+msgid "Last Updated by"
+msgstr "Last Updated by"
+
+#. module: currency_history_update
+#: field:currency.history.update,write_date:0
+msgid "Last Updated on"
+msgstr "Last Updated on"
+
+#. module: currency_history_update
+#: help:currency.history.update,force_update:0
+msgid "Running the wizard with this field checked updates currency rates with overwriting already existing records for any of the given dates."
+msgstr "Z tym polem zaznaczonym, system nadpisze wszystkie obecne w systemie daty jeśli zawierają się w wybranym przedziale czasowym."
+
+#. module: currency_history_update
+#: view:currency.history.update:currency_history_update.view_currency_update
+msgid "Select period"
+msgstr "Wybierz okres"
+
+#. module: currency_history_update
+#: view:currency.history.update:currency_history_update.view_currency_update
+msgid "Update"
+msgstr "Aktualizuj"
+
+#. module: currency_history_update
+#: model:ir.ui.menu,name:currency_history_update.menu_misc_currency_history
+msgid "Update Currency History"
+msgstr "Aktualizacja kursów walut"
+
+#. module: currency_history_update
+#: model:ir.model,name:currency_history_update.model_currency_history_update
+msgid "Updating currency rates for choosen days"
+msgstr "Pobieranie wybranych kursów walut."
+
+#. module: currency_history_update
+#: view:currency.history.update:currency_history_update.view_currency_update
+msgid "or"
+msgstr "lub"
+
