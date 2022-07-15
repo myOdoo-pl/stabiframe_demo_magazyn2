@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="stabiframe_assets_backend" inherit_id="web.assets_backend" name="StabiFrame Background Backend Assets">
+        <xpath expr="link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss" href="/stabiframe_background/static/src/scss/web_enterprise_ui.scss"/>
+        </xpath>
+    </template>
+
+    <template id="stabiframe_auth_assets" inherit_id="auth_signup.assets_frontend" name="StabiFrame Auth Assets">
+        <xpath expr="link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss" href="/stabiframe_background/static/src/scss/web_enterprise_ui.scss"/>
+        </xpath>
+    </template>
+
+    <template id="stabiframe_assets_primary_variables" inherit_id="web_enterprise._assets_primary_variables" name="StabiFrame Primary Variables Assets">
+        <xpath expr="link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss" href="/stabiframe_background/static/src/scss/primary_variables.scss"/>
+        </xpath>
+    </template>
+
+</odoo>
